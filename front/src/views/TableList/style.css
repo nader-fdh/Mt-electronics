@@ -1,0 +1,115 @@
+.card {
+    position: relative;
+    display: flex;
+    justify-items: center;
+    flex-shrink: 0;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .card__logo {
+    /* position: absolute; */
+    /* right: -15px; */
+    /* margin-top: auto; */
+    /* bottom: 50px; */
+    /* z-index: 1; */
+    margin: 10px;
+  }
+  
+  .logo {
+    width: 130px;
+    margin: 10px;
+  }
+  
+
+  
+  .content {
+    width: 60%;
+    height: 100%;
+  }
+  
+  .movie-title {
+    margin: 0;
+    padding: 20px 20px 0 20px;
+    color: black;
+    font-size: 40px;
+  }
+  
+  .features {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: #f1f1f1;
+    font-size: 20px;
+  }
+  
+  .info {
+    margin-left: 40px;
+    padding: 0 20px;
+    width: auto;
+    color:black;
+    font-size: 18px;
+    font-weight: 700;}
+
+
+  
+  .rank {
+    display: flex;
+    padding: 10px 0 0 13px;
+    width: 100%;
+  }
+  
+  .stars {
+    margin: 0 5px;
+  }
+  
+  .synopsis {
+    position: relative;
+    z-index: 100;
+    padding: 10px 0 0 20px;
+    width: 80%;
+    color: black;
+  }
+  
+  .more {
+    color: #f1f1f1;
+  }
+  
+  .watch {
+    display: flex;
+    padding: 10px 0 0 15px;
+    width: 80%;
+    color: #fbeded;
+  }
+  
+  .btn {
+    position: relative;
+    z-index: 50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    border: 2px solid crimson;
+    border-radius: 2px;
+    width: 180px;
+    height: 40px;
+    background-color: #000;
+    color: #f1f1f1;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 1s ease;
+  }
+  
+  .btn:hover {
+    background-color: #1a1a1a;
+    transition: background-color 0.2 ease;
+  }
+  
+  .icon img {
+    margin-top: 5px;
+    margin-right: 5px;
+    width: 20px;
+  }
